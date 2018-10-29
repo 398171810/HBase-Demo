@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <!--这里配置的是测试集群的zk地址，windos本地的hosts需加入集群的hosts配置-->
+        <value>192.168.10.61,192.168.10.62,192.168.10.63</value>
+        <description>The directory shared by region servers.
+        </description>
+    </property>
+</configuration>
